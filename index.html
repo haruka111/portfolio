@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Haruka Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><!-- ノーマライズcss -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a href="#about" class="nav-menu-item-link">
+            <p class="nav-menu-item-link-text">ABOUT</p> <!-- aタグではpositionの影響で中央揃えができないためpタグで囲みます -->
+          </a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#skills" class="nav-menu-item-link">
+            <p class="nav-menu-item-link-text">SKILLS</p>
+          </a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#works" class="nav-menu-item-link">
+            <p class="nav-menu-item-link-text">WORKS</p>
+          </a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#contact" class="nav-menu-item-link">
+            <p class="nav-menu-item-link-text">CONTACT</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="h-mv">
+      <h1 class="h-mv-ttl">
+        Portfolio
+      </h1>
+    </div>
+
+    <nav class="sp-nav">
+      <div class="sp-nav-drawer">
+        <div class="sp-nav-navbar_toggle">
+          <span class="sp-nav-navbar_toggle_icon"></span>
+          <span class="sp-nav-navbar_toggle_icon"></span>
+          <span class="sp-nav-navbar_toggle_icon"></span>
+        </div>
+      </div>
+      <div class="sp-nav-menu">
+        <ul class="sp-nav-menu-itembox">
+          <li class="sp-nav-menu-item">
+            <a href="#about" class="sp-nav-menu-item-link">
+              <p class="sp-nav-menu-item-link-text">About</p>
+            </a>
+          </li>
+          <li class="sp-nav-menu-item">
+            <a href="#skills" class="sp-nav-menu-item-link">
+              <p class="sp-nav-menu-item-link-text">skills</p>
+            </a>
+          </li>
+          <li class="sp-nav-menu-item">
+            <a href="#works" class="sp-nav-menu-item-link">
+              <p class="sp-nav-menu-item-link-text">Works</p>
+            </a>
+          </li>
+          <li class="sp-nav-menu-item">
+            <a href="#contact" class="sp-nav-menu-item-link">
+              <p class="sp-nav-menu-item-link-text">Contact</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="m-about" id="about">
+      <div class="m-container fadein">
+        <h1 class="m-ttl">About</h1>
+        <div class="m-about-profile">
+          <img class="m-about-profile-img" src="img/m-about-icon.png" alt="アイコン画像">
+          <p class="m-about-profile-txt">
+            こんにちは。ポートフォリオをご覧いただきありがとうございます。
+            <br>
+            山根春華と申します。
+            <br>
+            現在、ホームページや ランディングページ等のWebサイト制作の学習を進めております。
+            <br>
+            Webサイト制作において皆様のお手伝いをさせていただけましたら幸いです。^ ^
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="m-skills" id="skills">
+      <div class="m-container fadein">
+        <h1 class="m-ttl">Skills</h1>
+        <ul class="m-skills-languages">
+          <li class="m-skills-languages-item">
+            <div class="m-skills-languages-item-txtbox">
+              <p class="m-skills-languages-item-icon"><i class="fab fa-html5"></i></p>
+              <p class="m-skills-languages-item-name">HTML5</p>
+            </div>
+          </li>
+          <li class="m-skills-languages-item">
+            <div class="m-skills-languages-item-txtbox">
+              <p class="m-skills-languages-item-icon"><i class="fab fa-css3-alt"></i></p>
+              <p class="m-skills-languages-item-name">CSS3</p>
+            </div>
+          </li>
+          <li class="m-skills-languages-item">
+            <div class="m-skills-languages-item-txtbox">
+              <p class="m-skills-languages-item-icon"><i class="fab fa-js-square"></i></p>
+              <p class="m-skills-languages-item-name">jQuery</p>
+            </div>
+          </li>
+          <li class="m-skills-languages-item">
+            <div class="m-skills-languages-item-txtbox">
+              <p class="m-skills-languages-item-icon"><i class="fab fa-bootstrap"></i></p>
+              <p class="m-skills-languages-item-name">Bootstrap</p>
+            </div>
+          </li>
+          <li class="m-skills-languages-item">
+            <div class="m-skills-languages-item-txtbox">
+              <p class="m-skills-languages-item-icon"><i class="fab fa-sass"></i></p>
+              <p class="m-skills-languages-item-name">Sass</p>
+            </div>
+          </li>
+          <li class="m-skills-languages-item">
+            <div class="m-skills-languages-item-txtbox">
+              <p class="m-skills-languages-item-icon"><i class="fab fa-wordpress"></i></p>
+              <p class="m-skills-languages-item-name">WordPress ※学習途中です</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="m-works" id="works">
+      <div class="m-container fadein">
+        <h1 class="m-ttl">Works</h1>
+        <h2 class="m-subttl">架空サイト＆模写させていただいたサイトです。</h2>
+        <div class="m-slide"> <!--スライドさせる-->
+          <ul class="m-works-menu">
+            <li class="m-works-items">
+              <a class="m-works-items-link" href="https://haruka111.github.io/xd-first/" data-title="模写サイトスクリーンショット拡大" target="_blank">
+                <img class="m-works-items-img" src="img/m-works1-thumbnail.png" alt="模写サイトのスクリーンショットのサムネイル">
+              </a>
+              <h4 class="m-works-items-ttl">XDデザインカンプからのコーディング</h4>
+              <p class="m-works-items-txt">デザインデータを基にコーディングしました。
+                <br>
+                レスポンシブ(スマホ・タブレットサイズ)対応/メニュー等クリック時のスムーススクロール/アニメーション/よくある質問のアコーディオンメニュー/製作実績部分のスライダー/お問い合わせフォームのGoogleフォーム紐付け</p>
+            </li>
+            <li class="m-works-items">
+              <a href="">
+                <img src="" alt="">
+                <h4 class="m-works-items-ttl">架空サイト模写2</h4>
+                <p class="m-works-items-txt">HTML/CSS photoshopデータからコーディング</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section class="m-contact" id="contact">
+      <div class="m-container fadein">
+        <h1 class="m-ttl">Contact</h1>
+        <h2 class="m-subttl">お気軽にお問い合わせください。</h2>
+        <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfGwA1MCcxjT-weS70LAleyo5gUe7qcRP_mB60qyRNUJaox_Q/formResponse">
+          <label for="yourname">お名前</label>
+          <input id="yourname" type="text" name="entry.2005620554">
+          <label for="email">メールアドレス  (必須)</label>
+          <input id="email" type="email" name="entry.1045781291" required>
+          <label for="msg">お問い合わせ内容  (必須)</label>
+          <textarea name="entry.839337160" id="msg" required></textarea>
+          <button type="submit" value="送信">送信</button>
+        </form>
+      </div>
+    </section>
+
+    <div id="page_top"><a href="#"></a></div>
+  </main>
+
+  <footer class="footer">
+    @Haruka portfolio
+  </footer>
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/my-jquery.js"></script>
+
+</body>
+</html>
+
